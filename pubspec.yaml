@@ -1,0 +1,797 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/preview/images/arrow-left-circle-2.png
+    - assets/preview/images/arrow-left-circle.png
+    - assets/preview/images/frame-189.png
+    - assets/preview/images/frame-192.png
+    - assets/preview/images/wifi.png
+    - assets/preview/images/frame-192-b5P.png
+    - assets/preview/images/heart.png
+    - assets/preview/images/heart-SQm.png
+    - assets/preview/images/smile.png
+    - assets/preview/images/notch.png
+    - assets/preview/images/frame-192-TQ1.png
+    - assets/preview/images/group-18.png
+    - assets/preview/images/paperclip.png
+    - assets/preview/images/eye.png
+    - assets/preview/images/arrow-left-circle-HvM.png
+    - assets/preview/images/frame-189-he5.png
+    - assets/preview/images/search.png
+    - assets/preview/images/smile-D8Z.png
+    - assets/preview/images/component-8.png
+    - assets/preview/images/frame-192-78h.png
+    - assets/preview/images/frame-192-afX.png
+    - assets/preview/images/heart-5EV.png
+    - assets/preview/images/auto-group-7bzp.png
+    - assets/preview/images/group-18-24D.png
+    - assets/preview/images/icon-mobile-signal.png
+    - assets/preview/images/component-8-ZQ9.png
+    - assets/preview/images/heart-NAZ.png
+    - assets/preview/images/frame-192-hed.png
+    - assets/preview/images/auto-group-qjnr.png
+    - assets/preview/images/send.png
+    - assets/preview/images/frame-192-dJ5.png
+    - assets/preview/images/search-nMs.png
+    - assets/preview/images/frame-192-ZkZ.png
+    - assets/preview/images/wifi-zEZ.png
+    - assets/preview/images/auto-group-rkzy.png
+    - assets/preview/images/bell.png
+    - assets/preview/images/send-4Tw.png
+    - assets/preview/images/statusbar-battery.png
+    - assets/preview/images/send-iu3.png
+    - assets/preview/images/frame-190.png
+    - assets/preview/images/frame-192-9pZ.png
+    - assets/preview/images/frame-192-cCM.png
+    - assets/preview/images/auto-group-fbrd.png
+    - assets/preview/images/frame-192-gQD.png
+    - assets/preview/images/frame-190-fFK.png
+    - assets/preview/images/frame-190-DkR.png
+    - assets/preview/images/frame-192-Lpu.png
+    - assets/preview/images/frame-192-ynd.png
+    - assets/preview/images/group-12.png
+    - assets/preview/images/frame-192-5LH.png
+    - assets/preview/images/heart-FSu.png
+    - assets/preview/images/frame-192-WjX.png
+    - assets/preview/images/frame-192-NUd.png
+    - assets/preview/images/frame-190-vHb.png
+    - assets/preview/images/paperclip-GKo.png
+    - assets/preview/images/eye-xgD.png
+    - assets/preview/images/statusbar-battery-dFs.png
+    - assets/preview/images/auto-group-1d3b.png
+    - assets/preview/images/notch-z4d.png
+    - assets/preview/images/arrow-left-circle-7jK.png
+    - assets/preview/images/bell-8Ud.png
+    - assets/preview/images/image-3.png
+    - assets/preview/images/frame-192-H3j.png
+    - assets/preview/images/group-12-CAh.png
+    - assets/preview/images/paperclip-8KF.png
+    - assets/preview/images/smile-sxy.png
+    - assets/preview/images/auto-group-fskd.png
+    - assets/preview/images/eye-yFK.png
+    - assets/preview/images/frame-189-tt5.png
+    - assets/preview/images/frame-190-had.png
+    - assets/preview/images/frame-190-dz5.png
+    - assets/preview/images/auto-group-6rnh.png
+    - assets/preview/images/frame-192-q8y.png
+    - assets/preview/images/frame-189-vi9.png
+    - assets/preview/images/icon-mobile-signal-1xH.png
+    - assets/preview/images/auto-group-1n9b.png
+    - assets/preview/images/frame-192-7NM.png
+    - assets/preview/images/icon-mobile-signal-njP.png
+    - assets/preview/images/frame-192-oH7.png
+    - assets/preview/images/auto-group-qfim.png
+    - assets/preview/images/frame-189-tpM.png
+    - assets/preview/images/arrow-left-circle-dQZ.png
+    - assets/preview/images/frame-189-ajP.png
+    - assets/preview/images/paperclip-LuT.png
+    - assets/preview/images/auto-group-aprq.png
+    - assets/preview/images/arrow-left-circle-2-xk5.png
+    - assets/preview/images/frame-192-USq.png
+    - assets/preview/images/frame-192-MmX.png
+    - assets/preview/images/heart-JAy.png
+    - assets/preview/images/frame-192-7bj.png
+    - assets/preview/images/arrow-left-circle-Dem.png
+    - assets/preview/images/ellipse-372.png
+    - assets/preview/images/arrow-left-circle-2-AiR.png
+    - assets/preview/images/image-4.png
+    - assets/preview/images/wifi-WPP.png
+    - assets/preview/images/frame-190-RFT.png
+    - assets/preview/images/smile-Scm.png
+    - assets/preview/images/send-oM7.png
+    - assets/preview/images/frame-192-1am.png
+    - assets/preview/images/auto-group-jdnd.png
+    - assets/preview/images/auto-group-jzvb.png
+    - assets/preview/images/frame-192-iHB.png
+    - assets/preview/images/frame-190-q2m.png
+    - assets/preview/images/statusbar-battery-MhF.png
+    - assets/preview/images/component-8-RsT.png
+    - assets/preview/images/frame-192-2Vs.png
+    - assets/preview/images/eye-D4Z.png
+    - assets/preview/images/notch-pyT.png
+    - assets/preview/images/auto-group-lgpf.png
+    - assets/preview/images/arrow-left-circle-2-o97.png
+    - assets/preview/images/image-4-HS5.png
+    - assets/preview/images/image-4-XTB.png
+    - assets/preview/images/rectangle-1-bg.png
+    - assets/preview/images/heroicons-mini-heart.png
+    - assets/preview/images/image-4-oFb.png
+    - assets/preview/images/image-4-12D.png
+    - assets/preview/images/heart-TCy.png
+    - assets/preview/images/notificaation-apple.png
+    - assets/preview/images/frame-189-k6q.png
+    - assets/preview/images/rectangle-1-bg-g8d.png
+    - assets/preview/images/image-4-pjw.png
+    - assets/preview/images/frame-1.png
+    - assets/preview/images/image-4-uB3.png
+    - assets/preview/images/rectangle-1-bg-DUZ.png
+    - assets/preview/images/image-5.png
+    - assets/preview/images/eye-c9K.png
+    - assets/preview/images/image-6.png
+    - assets/preview/images/arrow-left-circle-vzy.png
+    - assets/preview/images/auto-group-ushj.png
+    - assets/preview/images/frame-192-hfT.png
+    - assets/preview/images/smile-8PP.png
+    - assets/preview/images/rectangle-1-bg-Cvy.png
+    - assets/preview/images/component-8-GgV.png
+    - assets/preview/images/rectangle-1-bg-1dP.png
+    - assets/preview/images/image-4-1rD.png
+    - assets/preview/images/statusbar-battery-G6Z.png
+    - assets/preview/images/frame-192-Rkh.png
+    - assets/preview/images/rectangle-1-bg-HaM.png
+    - assets/preview/images/auto-group-cnt5.png
+    - assets/preview/images/image-3-Ejf.png
+    - assets/preview/images/rectangle-1-bg-H33.png
+    - assets/preview/images/image-4-Geh.png
+    - assets/preview/images/icon-mobile-signal-Z9w.png
+    - assets/preview/images/notch-mFK.png
+    - assets/preview/images/heart-x4u.png
+    - assets/preview/images/auto-group-ehrm.png
+    - assets/preview/images/image-4-xEZ.png
+    - assets/preview/images/rectangle-1-bg-9th.png
+    - assets/preview/images/image-appple.png
+    - assets/preview/images/rectangle-1-bg-nXf.png
+    - assets/preview/images/wifi-dTj.png
+    - assets/preview/images/group-18-Cn9.png
+    - assets/preview/images/frame-189-B7T.png
+    - assets/preview/images/image-4-SPP.png
+    - assets/preview/images/frame-190-rFo.png
+    - assets/preview/images/image-4-cFP.png
+    - assets/preview/images/paperclip-KQh.png
+    - assets/preview/images/frame-192-6zR.png
+    - assets/preview/images/wifi-tJ1.png
+    - assets/preview/images/send-w9X.png
+    - assets/preview/images/rectangle-1-bg-XNd.png
+    - assets/preview/images/arrow-left-circle-SkV.png
+    - assets/preview/images/auto-group-oknd.png
+    - assets/preview/images/image-5-qZP.png
+    - assets/preview/images/frame-192-vz9.png
+    - assets/preview/images/eye-UEy.png
+    - assets/preview/images/heart-5kZ.png
+    - assets/preview/images/smile-2A1.png
+    - assets/preview/images/arrow-left-circle-2-oC1.png
+    - assets/preview/images/frame-192-JeZ.png
+    - assets/preview/images/auto-group-tqjh.png
+    - assets/preview/images/frame-189-1Pb.png
+    - assets/preview/images/rectangle-1-bg-7xR.png
+    - assets/preview/images/statusbar-battery-3r5.png
+    - assets/preview/images/component-8-S9B.png
+    - assets/preview/images/image-4-nGD.png
+    - assets/preview/images/image-3-xpM.png
+    - assets/preview/images/notch-Jz1.png
+    - assets/preview/images/image-4-RYq.png
+    - assets/preview/images/arrow-left-circle-tqj.png
+    - assets/preview/images/auto-group-gsbb.png
+    - assets/preview/images/image-4-CYu.png
+    - assets/preview/images/icon-mobile-signal-V2D.png
+    - assets/preview/images/rectangle-1-bg-ChK.png
+    - assets/preview/images/send-wQ1.png
+    - assets/preview/images/rectangle-1-bg-fau.png
+    - assets/preview/images/rectangle-1-bg-ZTK.png
+    - assets/preview/images/auto-group-ndrw.png
+    - assets/preview/images/frame-1-189.png
+    - assets/preview/images/image-5-mmX.png
+    - assets/preview/images/image-appple-6oo.png
+    - assets/preview/images/image-4-dpy.png
+    - assets/preview/images/rectangle-1-bg-kPo.png
+    - assets/preview/images/arrow-left-circle-uqP.png
+    - assets/preview/images/image-6-zuj.png
+    - assets/preview/images/rectangle-1-bg-Yff.png
+    - assets/preview/images/image-4-4P7.png
+    - assets/preview/images/rectangle-1-bg-PgH.png
+    - assets/preview/images/rectangle-1-bg-s17.png
+    - assets/preview/images/rectangle-1-bg-tzh.png
+    - assets/preview/images/image-6-Qqs.png
+    - assets/preview/images/image-4-wBT.png
+    - assets/preview/images/image-4-tGM.png
+    - assets/preview/images/image-4-yzu.png
+    - assets/preview/images/rectangle-1-bg-Zam.png
+    - assets/preview/images/image-4-vCu.png
+    - assets/preview/images/image-3-2Y5.png
+    - assets/preview/images/paperclip-Dvd.png
+    - assets/preview/images/rectangle-1-bg-CNZ.png
+    - assets/preview/images/notch-KyX.png
+    - assets/preview/images/rectangle-1-bg-ecM.png
+    - assets/preview/images/image-4-9L9.png
+    - assets/preview/images/auto-group-sbgy.png
+    - assets/preview/images/image-4-hky.png
+    - assets/preview/images/frame-192-7UZ.png
+    - assets/preview/images/search-UA1.png
+    - assets/preview/images/eye-AYd.png
+    - assets/preview/images/image-3-62q.png
+    - assets/preview/images/statusbar-battery-sFs.png
+    - assets/preview/images/wifi-4NZ.png
+    - assets/preview/images/auto-group-qdps.png
+    - assets/preview/images/arrow-left-circle-Vbb.png
+    - assets/preview/images/auto-group-adp1.png
+    - assets/preview/images/frame-190-Vzm.png
+    - assets/preview/images/arrow-left-circle-jdF.png
+    - assets/preview/images/component-8-dhF.png
+    - assets/preview/images/bell-1vV.png
+    - assets/preview/images/frame-189-ECD.png
+    - assets/preview/images/frame-192-ZdP.png
+    - assets/preview/images/heart-cAq.png
+    - assets/preview/images/send-X2u.png
+    - assets/preview/images/frame-192-ymo.png
+    - assets/preview/images/paperclip-CpD.png
+    - assets/preview/images/icon-mobile-signal-Hjj.png
+    - assets/preview/images/image-4-cS9.png
+    - assets/preview/images/smile-ggM.png
+    - assets/preview/images/image-4-t1K.png
+    - assets/preview/images/image-4-uNM.png
+    - assets/preview/images/auto-group-1hdp.png
+    - assets/preview/images/image-appple-iPX.png
+    - assets/preview/images/image-5-7Cy.png
+    - assets/preview/images/image-3-BJM.png
+    - assets/preview/images/subtract.png
+    - assets/preview/images/rectangle-1-bg-EZb.png
+    - assets/preview/images/statusbar-battery-An1.png
+    - assets/preview/images/vector.png
+    - assets/preview/images/notch-rm3.png
+    - assets/preview/images/rectangle-1-bg-LFP.png
+    - assets/preview/images/vector-xVb.png
+    - assets/preview/images/image-1.png
+    - assets/preview/images/wifi-Bkq.png
+    - assets/preview/images/flat-color-icons-google.png
+    - assets/preview/images/statusbar-battery-W5b.png
+    - assets/preview/images/image-1-T9f.png
+    - assets/preview/images/icon-mobile-signal-FSm.png
+    - assets/preview/images/vector-4ku.png
+    - assets/preview/images/flat-color-icons-google-TAm.png
+    - assets/preview/images/icon-mobile-signal-6qK.png
+    - assets/preview/images/subtract-y3s.png
+    - assets/preview/images/vector-HX3.png
+    - assets/preview/images/plus.png
+    - assets/preview/images/notch-YkM.png
+    - assets/preview/images/notch-y4R.png
+    - assets/preview/images/wifi-rXX.png
+    - assets/preview/images/statusbar-battery-Dhw.png
+    - assets/preview/images/arrow-left-circle-5Pb.png
+    - assets/preview/images/icon-mobile-signal-VMF.png
+    - assets/preview/images/rectangle-12.png
+    - assets/preview/images/group-627153.png
+    - assets/preview/images/icon-mobile-signal-pNh.png
+    - assets/preview/images/completed.png
+    - assets/preview/images/notch-4KF.png
+    - assets/preview/images/wifi-oUq.png
+    - assets/preview/images/completed-VcZ.png
+    - assets/preview/images/completed-SUD.png
+    - assets/preview/images/completed-CrR.png
+    - assets/preview/images/statusbar-battery-Qyj.png
+    - assets/preview/images/wifi-E9B.png
+    - assets/design-prototype/images/frame-192-CLd.png
+    - assets/colors-pages-preview/images/profile.png
+    - assets/design-prototype/images/icon-mobile-signal-tPP.png
+    - assets/design-prototype/images/heart-dmX.png
+    - assets/colors-pages-preview/images/home.png
+    - assets/design-prototype/images/notch-HRF.png
+    - assets/colors-pages-preview/images/preview-post.png
+    - assets/design-prototype/images/frame-192-Gwo.png
+    - assets/design-prototype/images/frame-192-Mdo.png
+    - assets/design-prototype/images/frame-189-1i5.png
+    - assets/design-prototype/images/group-18-HVP.png
+    - assets/design-prototype/images/smile-JuT.png
+    - assets/colors-pages-preview/images/post-.png
+    - assets/design-prototype/images/auto-group-j7kk.png
+    - assets/design-prototype/images/auto-group-nqsb.png
+    - assets/design-prototype/images/heart-4Qd.png
+    - assets/design-prototype/images/frame-189-3yw.png
+    - assets/design-prototype/images/auto-group-vzbk.png
+    - assets/design-prototype/images/frame-190-kDT.png
+    - assets/design-prototype/images/component-8-DuP.png
+    - assets/design-prototype/images/arrow-left-circle-2-xfP.png
+    - assets/design-prototype/images/frame-192-uE5.png
+    - assets/design-prototype/images/frame-192-tso.png
+    - assets/design-prototype/images/frame-189-6H3.png
+    - assets/design-prototype/images/search-UBw.png
+    - assets/design-prototype/images/eye-8e9.png
+    - assets/design-prototype/images/frame-190-rqs.png
+    - assets/design-prototype/images/arrow-left-circle-w5f.png
+    - assets/design-prototype/images/frame-190-ZA5.png
+    - assets/design-prototype/images/heart-7Ks.png
+    - assets/design-prototype/images/statusbar-battery-Y45.png
+    - assets/design-prototype/images/heart-xVT.png
+    - assets/design-prototype/images/wifi-mT3.png
+    - assets/design-prototype/images/frame-192-ML9.png
+    - assets/design-prototype/images/frame-192-WUV.png
+    - assets/design-prototype/images/frame-192-rhs.png
+    - assets/design-prototype/images/frame-192-U5j.png
+    - assets/design-prototype/images/paperclip-8fF.png
+    - assets/design-prototype/images/frame-192-cAh.png
+    - assets/design-prototype/images/frame-192-yos.png
+    - assets/design-prototype/images/image-4-1ph.png
+    - assets/design-prototype/images/rectangle-1-bg-zwo.png
+    - assets/design-prototype/images/heart-mbB.png
+    - assets/design-prototype/images/bell-2N1.png
+    - assets/design-prototype/images/send-3VX.png
+    - assets/design-prototype/images/rectangle-1-bg-nN1.png
+    - assets/design-prototype/images/image-4-ghb.png
+    - assets/design-prototype/images/auto-group-l1jd.png
+    - assets/design-prototype/images/arrow-left-circle-uhF.png
+    - assets/design-prototype/images/image-4-32m.png
+    - assets/design-prototype/images/rectangle-1-bg-S3F.png
+    - assets/design-prototype/images/image-4-Wqb.png
+    - assets/design-prototype/images/rectangle-1-bg-8fw.png
+    - assets/design-prototype/images/image-appple-vPf.png
+    - assets/design-prototype/images/image-4-Mfs.png
+    - assets/design-prototype/images/image-3-Ejf-CRb.png
+    - assets/design-prototype/images/image-4-zGu.png
+    - assets/design-prototype/images/image-4-Bqo.png
+    - assets/design-prototype/images/image-4-J9T.png
+    - assets/design-prototype/images/rectangle-1-bg-6j7.png
+    - assets/design-prototype/images/rectangle-1-bg-VPj.png
+    - assets/design-prototype/images/image-appple-qEV.png
+    - assets/design-prototype/images/image-4-85j.png
+    - assets/design-prototype/images/image-4-12d.png
+    - assets/design-prototype/images/frame-189-YtD.png
+    - assets/design-prototype/images/rectangle-1-bg-xmT.png
+    - assets/design-prototype/images/rectangle-1-bg-dp9.png
+    - assets/design-prototype/images/group-18-Xwj.png
+    - assets/design-prototype/images/heart-h9X.png
+    - assets/design-prototype/images/send-AEZ.png
+    - assets/design-prototype/images/auto-group-xo9w.png
+    - assets/design-prototype/images/arrow-left-circle-Ltd.png
+    - assets/design-prototype/images/auto-group-quvh.png
+    - assets/design-prototype/images/arrow-left-circle-LX7.png
+    - assets/design-prototype/images/frame-192-Ghb.png
+    - assets/design-prototype/images/paperclip-xfX.png
+    - assets/design-prototype/images/statusbar-battery-Ngd.png
+    - assets/design-prototype/images/frame-192-hnm.png
+    - assets/design-prototype/images/frame-190-fSd.png
+    - assets/design-prototype/images/frame-192-Vau.png
+    - assets/design-prototype/images/wifi-iQD.png
+    - assets/design-prototype/images/frame-192-VfB.png
+    - assets/design-prototype/images/frame-189-CZb.png
+    - assets/design-prototype/images/smile-oqX.png
+    - assets/design-prototype/images/frame-192-Lys.png
+    - assets/design-prototype/images/frame-190-jHX.png
+    - assets/design-prototype/images/frame-192-wGR.png
+    - assets/design-prototype/images/frame-190-rCM.png
+    - assets/design-prototype/images/bell-acV.png
+    - assets/design-prototype/images/notch-iCu.png
+    - assets/design-prototype/images/auto-group-sdem.png
+    - assets/design-prototype/images/eye-dY9.png
+    - assets/design-prototype/images/search-HGR.png
+    - assets/design-prototype/images/component-8-XeM.png
+    - assets/design-prototype/images/heart-egm.png
+    - assets/design-prototype/images/frame-192-piy.png
+    - assets/design-prototype/images/frame-192-Xjb.png
+    - assets/design-prototype/images/auto-group-rja5.png
+    - assets/design-prototype/images/frame-192-cSh.png
+    - assets/design-prototype/images/frame-189-FVf.png
+    - assets/design-prototype/images/frame-192-gnZ.png
+    - assets/design-prototype/images/frame-192-Zid.png
+    - assets/design-prototype/images/icon-mobile-signal-4WZ.png
+    - assets/design-prototype/images/heart-Jgm.png
+    - assets/design-prototype/images/arrow-left-circle-2-aWH.png
+    - assets/design-prototype/images/image-4-Tfj.png
+    - assets/design-prototype/images/rectangle-1-bg-cAy.png
+    - assets/design-prototype/images/image-4-zDj.png
+    - assets/design-prototype/images/image-4-GxM.png
+    - assets/design-prototype/images/image-4-Vth.png
+    - assets/design-prototype/images/image-4-xjX.png
+    - assets/design-prototype/images/frame-189-FHo.png
+    - assets/design-prototype/images/rectangle-1-bg-GfF.png
+    - assets/design-prototype/images/image-4-Svq.png
+    - assets/design-prototype/images/frame-192-rTP.png
+    - assets/design-prototype/images/rectangle-1-bg-DUh.png
+    - assets/design-prototype/images/rectangle-1-bg-Knd.png
+    - assets/design-prototype/images/image-4-UHs.png
+    - assets/design-prototype/images/frame-189-t3F.png
+    - assets/design-prototype/images/image-4-eiZ.png
+    - assets/design-prototype/images/image-4-n45.png
+    - assets/design-prototype/images/rectangle-1-bg-u8h.png
+    - assets/design-prototype/images/image-appple-1sb.png
+    - assets/design-prototype/images/frame-190-H6M.png
+    - assets/design-prototype/images/rectangle-1-bg-8A9.png
+    - assets/design-prototype/images/rectangle-1-bg-RU1.png
+    - assets/design-prototype/images/frame-189-j4h.png
+    - assets/design-prototype/images/notch-D81.png
+    - assets/design-prototype/images/frame-192-1ob.png
+    - assets/design-prototype/images/arrow-left-circle-o6V.png
+    - assets/design-prototype/images/wifi-2kM.png
+    - assets/design-prototype/images/frame-192-d9f.png
+    - assets/design-prototype/images/rectangle-1-bg-Scu.png
+    - assets/design-prototype/images/image-3-thB.png
+    - assets/design-prototype/images/statusbar-battery-BmP.png
+    - assets/design-prototype/images/frame-192-hp1.png
+    - assets/design-prototype/images/frame-192-nCV.png
+    - assets/design-prototype/images/heart-f97.png
+    - assets/design-prototype/images/send-16M.png
+    - assets/design-prototype/images/heart-pbw.png
+    - assets/design-prototype/images/frame-190-9TB.png
+    - assets/design-prototype/images/arrow-left-circle-2-bjj.png
+    - assets/design-prototype/images/heart-FsT.png
+    - assets/design-prototype/images/frame-190-Rqf.png
+    - assets/design-prototype/images/smile-EVb.png
+    - assets/design-prototype/images/search-qZF.png
+    - assets/design-prototype/images/frame-192-1pR.png
+    - assets/design-prototype/images/auto-group-nwjj.png
+    - assets/design-prototype/images/auto-group-3f81.png
+    - assets/design-prototype/images/icon-mobile-signal-xDB.png
+    - assets/design-prototype/images/auto-group-zuy9.png
+    - assets/design-prototype/images/auto-group-7qc5.png
+    - assets/design-prototype/images/arrow-left-circle-9Ro.png
+    - assets/design-prototype/images/frame-189-dHF.png
+    - assets/design-prototype/images/component-8-jSu.png
+    - assets/design-prototype/images/frame-192-8UD.png
+    - assets/design-prototype/images/paperclip-Wny.png
+    - assets/design-prototype/images/frame-192-dgh.png
+    - assets/design-prototype/images/frame-192-abf.png
+    - assets/design-prototype/images/frame-192-zRB.png
+    - assets/design-prototype/images/frame-192-ik5.png
+    - assets/design-prototype/images/frame-192-atd.png
+    - assets/design-prototype/images/eye-XfB.png
+    - assets/design-prototype/images/rectangle-1-bg-hvu.png
+    - assets/design-prototype/images/group-18-NoX.png
+    - assets/design-prototype/images/bell-qS5.png
+    - assets/design-prototype/images/frame-190-jho.png
+    - assets/design-prototype/images/heart-iso.png
+    - assets/design-prototype/images/heart-jiV.png
+    - assets/design-prototype/images/frame-192-S7X.png
+    - assets/design-prototype/images/image-4-Xk1.png
+    - assets/design-prototype/images/frame-192-UuT.png
+    - assets/design-prototype/images/rectangle-1-bg-9Jd.png
+    - assets/design-prototype/images/frame-192-9NV.png
+    - assets/design-prototype/images/paperclip-e13.png
+    - assets/design-prototype/images/frame-192-iww.png
+    - assets/design-prototype/images/image-4-SEH.png
+    - assets/design-prototype/images/frame-190-3Yh.png
+    - assets/design-prototype/images/image-4-wvu.png
+    - assets/design-prototype/images/image-4-3DF.png
+    - assets/design-prototype/images/image-4-EXF.png
+    - assets/design-prototype/images/rectangle-1-bg-nnq.png
+    - assets/design-prototype/images/image-appple-PWD.png
+    - assets/design-prototype/images/rectangle-1-bg-Y1j.png
+    - assets/design-prototype/images/image-4-s41.png
+    - assets/design-prototype/images/image-4-nwf.png
+    - assets/design-prototype/images/rectangle-1-bg-GkM.png
+    - assets/design-prototype/images/rectangle-1-bg-NLm.png
+    - assets/design-prototype/images/image-3-B49.png
+    - assets/design-prototype/images/heart-R8q.png
+    - assets/design-prototype/images/image-4-K6u.png
+    - assets/design-prototype/images/auto-group-ydjm.png
+    - assets/design-prototype/images/frame-190-eBF.png
+    - assets/design-prototype/images/rectangle-1-bg-YA9.png
+    - assets/design-prototype/images/frame-189-KM7.png
+    - assets/design-prototype/images/smile-6eh.png
+    - assets/design-prototype/images/frame-192-Rgy.png
+    - assets/design-prototype/images/frame-190-MTj.png
+    - assets/design-prototype/images/eye-sgy.png
+    - assets/design-prototype/images/image-4-1HP.png
+    - assets/design-prototype/images/send-ucy.png
+    - assets/design-prototype/images/rectangle-1-bg-GNy.png
+    - assets/design-prototype/images/frame-192-MvD.png
+    - assets/design-prototype/images/heart-6N1.png
+    - assets/design-prototype/images/frame-189-Pc1.png
+    - assets/design-prototype/images/arrow-left-circle-Cv9.png
+    - assets/design-prototype/images/frame-192-Znd.png
+    - assets/design-prototype/images/arrow-left-circle-Tt1.png
+    - assets/design-prototype/images/group-18-3Dw.png
+    - assets/design-prototype/images/auto-group-ukqo.png
+    - assets/design-prototype/images/arrow-left-circle-2-RgH.png
+    - assets/design-prototype/images/auto-group-dgsx.png
+    - assets/design-prototype/images/frame-192-2EH.png
+    - assets/design-prototype/images/frame-192-qR7.png
+    - assets/design-prototype/images/heart-hN5.png
+    - assets/design-prototype/images/frame-192-Nq3.png
+    - assets/design-prototype/images/icon-mobile-signal-VZP.png
+    - assets/design-prototype/images/notch-vW9.png
+    - assets/design-prototype/images/component-8-Wry.png
+    - assets/design-prototype/images/statusbar-battery-RVX.png
+    - assets/design-prototype/images/search-MBT.png
+    - assets/design-prototype/images/frame-189-crh.png
+    - assets/design-prototype/images/frame-189-sAD.png
+    - assets/design-prototype/images/frame-190-GPX.png
+    - assets/design-prototype/images/frame-192-rB7.png
+    - assets/design-prototype/images/bell-cqb.png
+    - assets/design-prototype/images/rectangle-1-bg-ipV.png
+    - assets/design-prototype/images/wifi-JtV.png
+    - assets/design-prototype/images/auto-group-qn7w.png
+    - assets/design-prototype/images/frame-192-S93.png
+    - assets/design-prototype/images/rectangle-1-bg-svu.png
+    - assets/design-prototype/images/search-HY1.png
+    - assets/design-prototype/images/frame-190-mos.png
+    - assets/design-prototype/images/paperclip-URs.png
+    - assets/design-prototype/images/rectangle-1-bg-sYh.png
+    - assets/design-prototype/images/rectangle-1-bg-RG1.png
+    - assets/design-prototype/images/rectangle-1-bg-vJq.png
+    - assets/design-prototype/images/image-4-DjB.png
+    - assets/design-prototype/images/frame-192-iQM.png
+    - assets/design-prototype/images/notch-JmK.png
+    - assets/design-prototype/images/image-4-p8d.png
+    - assets/design-prototype/images/image-4-DgZ.png
+    - assets/design-prototype/images/rectangle-1-bg-GRs.png
+    - assets/design-prototype/images/image-4-oAu.png
+    - assets/design-prototype/images/image-4-Uqs.png
+    - assets/design-prototype/images/image-3-EbP.png
+    - assets/design-prototype/images/rectangle-1-bg-8wf.png
+    - assets/design-prototype/images/image-4-4RK.png
+    - assets/design-prototype/images/image-4-yHP.png
+    - assets/design-prototype/images/bell-Rj3.png
+    - assets/design-prototype/images/rectangle-1-bg-P5X.png
+    - assets/design-prototype/images/auto-group-wis7.png
+    - assets/design-prototype/images/image-4-32D.png
+    - assets/design-prototype/images/image-appple-kHK.png
+    - assets/design-prototype/images/image-4-kX7.png
+    - assets/design-prototype/images/icon-mobile-signal-sTK.png
+    - assets/design-prototype/images/auto-group-dhmf.png
+    - assets/design-prototype/images/arrow-left-circle-VKK.png
+    - assets/design-prototype/images/arrow-left-circle-2-69K.png
+    - assets/design-prototype/images/image-4-yVF.png
+    - assets/design-prototype/images/frame-189-o3b.png
+    - assets/design-prototype/images/image-4-guK.png
+    - assets/design-prototype/images/auto-group-snwf.png
+    - assets/design-prototype/images/heart-bc1.png
+    - assets/design-prototype/images/statusbar-battery-dph.png
+    - assets/design-prototype/images/smile-Qkm.png
+    - assets/design-prototype/images/component-8-uxR.png
+    - assets/design-prototype/images/rectangle-1-bg-qYZ.png
+    - assets/design-prototype/images/image-4-Bbj.png
+    - assets/design-prototype/images/image-appple-kSR.png
+    - assets/design-prototype/images/frame-192-enh.png
+    - assets/design-prototype/images/frame-192-Zid-Kxh.png
+    - assets/design-prototype/images/send-381.png
+    - assets/design-prototype/images/eye-4UM.png
+    - assets/design-prototype/images/arrow-left-circle-A1b.png
+    - assets/design-prototype/images/auto-group-ygkd.png
+    - assets/design-prototype/images/auto-group-tzqr.png
+    - assets/design-prototype/images/wifi-CJR.png
+    - assets/design-prototype/images/send-BU9.png
+    - assets/design-prototype/images/rectangle-1-bg-zVb.png
+    - assets/design-prototype/images/icon-mobile-signal-BnD.png
+    - assets/design-prototype/images/image-3-o2u.png
+    - assets/design-prototype/images/auto-group-pbtq.png
+    - assets/design-prototype/images/paperclip-nAq.png
+    - assets/design-prototype/images/frame-189-gzZ.png
+    - assets/design-prototype/images/auto-group-3rsd.png
+    - assets/design-prototype/images/heart-Fqf.png
+    - assets/design-prototype/images/arrow-left-circle-HLH.png
+    - assets/design-prototype/images/statusbar-battery-rHj.png
+    - assets/design-prototype/images/heart-3Gh.png
+    - assets/design-prototype/images/notch-c4m.png
+    - assets/design-prototype/images/frame-192-yyw.png
+    - assets/design-prototype/images/frame-190-dPT.png
+    - assets/design-prototype/images/frame-192-2cD.png
+    - assets/design-prototype/images/arrow-left-circle-2-tpm.png
+    - assets/design-prototype/images/auto-group-dgy3.png
+    - assets/design-prototype/images/wifi-gXX.png
+    - assets/design-prototype/images/heroicons-mini-heart-y8h.png
+    - assets/design-prototype/images/smile-rJy.png
+    - assets/design-prototype/images/heart-oe5.png
+    - assets/design-prototype/images/frame-1-CzZ.png
+    - assets/design-prototype/images/auto-group-q6f7.png
+    - assets/design-prototype/images/auto-group-tqjb.png
+    - assets/design-prototype/images/auto-group-gvam.png
+    - assets/design-prototype/images/icon-mobile-signal-CZB.png
+    - assets/design-prototype/images/frame-192-MD7.png
+    - assets/design-prototype/images/auto-group-t9th.png
+    - assets/design-prototype/images/notch-Grh.png
+    - assets/design-prototype/images/component-8-Rd7.png
+    - assets/design-prototype/images/rectangle-1-bg-TuX.png
+    - assets/design-prototype/images/send-P3b.png
+    - assets/design-prototype/images/eye-1ho.png
+    - assets/design-prototype/images/rectangle-1-bg-qpR.png
+    - assets/design-prototype/images/frame-192-MGy.png
+    - assets/design-prototype/images/eye-e4D.png
+    - assets/design-prototype/images/frame-190-XC9.png
+    - assets/design-prototype/images/frame-189-QcM.png
+    - assets/design-prototype/images/frame-192-MDw.png
+    - assets/design-prototype/images/arrow-left-circle-2-QBX.png
+    - assets/design-prototype/images/arrow-left-circle-7XB.png
+    - assets/design-prototype/images/smile-bQH.png
+    - assets/design-prototype/images/image-4-F1X.png
+    - assets/design-prototype/images/wifi-vCm.png
+    - assets/design-prototype/images/heart-Lhj.png
+    - assets/design-prototype/images/frame-192-e1T.png
+    - assets/design-prototype/images/image-4-uL1.png
+    - assets/design-prototype/images/paperclip-ZL1.png
+    - assets/design-prototype/images/statusbar-battery-VYR.png
+    - assets/design-prototype/images/component-8-HZF.png
+    - assets/design-prototype/images/group-18-8Ud.png
+    - assets/design-prototype/images/image-3-u81.png
+    - assets/design-prototype/images/image-appple-aBP.png
+    - assets/design-prototype/images/image-4-sxH.png
+    - assets/design-prototype/images/image-4-S5j.png
+    - assets/design-prototype/images/image-3-BTb.png
+    - assets/design-prototype/images/image-4-EBw.png
+    - assets/design-prototype/images/rectangle-1-bg-8BF.png
+    - assets/design-prototype/images/notch-3wb.png
+    - assets/design-prototype/images/rectangle-1-bg-95P.png
+    - assets/design-prototype/images/frame-190-BEm.png
+    - assets/design-prototype/images/paperclip-Ka5.png
+    - assets/design-prototype/images/auto-group-rl5t.png
+    - assets/design-prototype/images/auto-group-t3s3.png
+    - assets/design-prototype/images/send-629.png
+    - assets/design-prototype/images/statusbar-battery-Wcd.png
+    - assets/design-prototype/images/frame-192-4cM.png
+    - assets/design-prototype/images/component-8-JQm.png
+    - assets/design-prototype/images/arrow-left-circle-Ucd.png
+    - assets/design-prototype/images/frame-1-uKB.png
+    - assets/design-prototype/images/heart-zHs.png
+    - assets/design-prototype/images/arrow-left-circle-Cgu.png
+    - assets/design-prototype/images/auto-group-7s21.png
+    - assets/design-prototype/images/eye-job.png
+    - assets/design-prototype/images/frame-192-J9K.png
+    - assets/design-prototype/images/auto-group-pbly.png
+    - assets/design-prototype/images/image-4-nvR.png
+    - assets/design-prototype/images/rectangle-1-bg-1MP.png
+    - assets/design-prototype/images/icon-mobile-signal-vwX.png
+    - assets/design-prototype/images/paperclip-Vo3.png
+    - assets/design-prototype/images/frame-192-tgM.png
+    - assets/design-prototype/images/smile-VRf.png
+    - assets/design-prototype/images/arrow-left-circle-k8V.png
+    - assets/design-prototype/images/frame-189-FP3.png
+    - assets/design-prototype/images/auto-group-48xu.png
+    - assets/design-prototype/images/arrow-left-circle-C7X.png
+    - assets/design-prototype/images/image-3-WrH.png
+    - assets/design-prototype/images/wifi-gKP.png
+    - assets/design-prototype/images/component-8-fFs.png
+    - assets/design-prototype/images/frame-192-sC1.png
+    - assets/design-prototype/images/frame-190-TQy.png
+    - assets/design-prototype/images/heart-iGD.png
+    - assets/design-prototype/images/rectangle-1-bg-nNy.png
+    - assets/design-prototype/images/arrow-left-circle-gFX.png
+    - assets/design-prototype/images/search-qrV.png
+    - assets/design-prototype/images/frame-192-FrV.png
+    - assets/design-prototype/images/bell-AiZ.png
+    - assets/design-prototype/images/send-CDT.png
+    - assets/design-prototype/images/image-4-5rM.png
+    - assets/design-prototype/images/frame-192-bUh.png
+    - assets/design-prototype/images/statusbar-battery-7vD.png
+    - assets/design-prototype/images/auto-group-ubwb.png
+    - assets/design-prototype/images/image-4-5x9.png
+    - assets/design-prototype/images/image-appple-GzR.png
+    - assets/design-prototype/images/auto-group-n9tk.png
+    - assets/design-prototype/images/eye-S1T.png
+    - assets/design-prototype/images/icon-mobile-signal-v53.png
+    - assets/design-prototype/images/component-8-seV.png
+    - assets/design-prototype/images/frame-192-Cgm.png
+    - assets/design-prototype/images/wifi-eHs.png
+    - assets/design-prototype/images/smile-8Kw.png
+    - assets/design-prototype/images/notch-e3P.png
+    - assets/design-prototype/images/eye-G4m.png
+    - assets/design-prototype/images/frame-189-noo.png
+    - assets/design-prototype/images/auto-group-tqtv.png
+    - assets/design-prototype/images/auto-group-wjdb.png
+    - assets/design-prototype/images/notch-FoT.png
+    - assets/design-prototype/images/frame-192-SnZ.png
+    - assets/design-prototype/images/image-3-GxV.png
+    - assets/design-prototype/images/wifi-1rd.png
+    - assets/design-prototype/images/rectangle-1-bg-tpu.png
+    - assets/design-prototype/images/bell-GDB.png
+    - assets/design-prototype/images/heart-Vss.png
+    - assets/design-prototype/images/image-4-B73.png
+    - assets/design-prototype/images/rectangle-1-bg-LTo.png
+    - assets/design-prototype/images/image-4-bdw.png
+    - assets/design-prototype/images/send-9Mf.png
+    - assets/design-prototype/images/auto-group-n21k.png
+    - assets/design-prototype/images/auto-group-jsgq.png
+    - assets/design-prototype/images/rectangle-1-bg-H6V.png
+    - assets/design-prototype/images/statusbar-battery-jDP.png
+    - assets/design-prototype/images/smile-wWd.png
+    - assets/design-prototype/images/frame-192-xgd.png
+    - assets/design-prototype/images/frame-190-D65.png
+    - assets/design-prototype/images/icon-mobile-signal-6Qm.png
+    - assets/design-prototype/images/paperclip-Fgy.png
+    - assets/design-prototype/images/auto-group-g8cm.png
+    - assets/design-prototype/images/rectangle-1-bg-eUD.png
+    - assets/design-prototype/images/image-3-PAu.png
+    - assets/design-prototype/images/arrow-left-circle-pJh.png
+    - assets/design-prototype/images/image-4-Fbb.png
+    - assets/design-prototype/images/ezgif-1.png
+    - assets/design-prototype/images/frame-189-ntu.png
+    - assets/design-prototype/images/search-oKT.png
+    - assets/design-prototype/images/image-4-2oo.png
+    - assets/design-prototype/images/logo-1.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
