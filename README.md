@@ -18,9 +18,10 @@ This repository contains the source code for the Thrift Hub mobile application b
 
 To get started with the app, follow these steps:
 
-Clone this repository: `git clone https://github.com/hnikhar/thrift-hub.git`
-Navigate to the project directory: `cd thrift-hub`
-Run the app: `flutter run`
+1. Clone this repository: `git clone https://github.com/hnikhar/thrift-hub.git`
+2. Navigate to the project directory: `cd thrift-hub`
+3. Run the app: `flutter run`
+
 Note: Before running the app, ensure that you have Flutter installed on your system.
 
 
